@@ -29,10 +29,17 @@ export default function Home() {
             <h1 className="text-3xl font-bold">Companion Chatbot</h1>
           </div>
           <div>
-            <button className="bg-white bg-opacity-20 hover:bg-opacity-30 transition-colors px-4 py-2 rounded-lg text-sm font-medium">
-              Documentation
-            </button>
-          </div>
+  <a 
+    href="https://github.com/Deepanshu2k3/Companion-AI-RAG-Chatbot" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <button className="bg-black bg-opacity-20 hover:bg-opacity-30 transition-colors px-4 py-2 rounded-lg text-sm font-medium">
+      Code and Logs
+    </button>
+  </a>
+</div>
+
         </div>
       </header>
       
@@ -41,7 +48,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           {/* Introduction section */}
           <div className="text-center mb-10">
-            <h2 className="text-2xl font-bold text-gray-800 mb-3">Your Personal AI Research Assistant</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-3">Ai companion bot</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Get answers and insights tailored to your profile and interests. Start by sharing your profile information, then ask questions about anything you need help with.
             </p>
@@ -117,7 +124,7 @@ export default function Home() {
                       >
                         <polyline points="20 6 9 17 4 12"></polyline>
                       </svg>
-                      Include your experience level for more targeted advice
+                      Try adding your intentions aswell for better results.
                     </li>
                   </ul>
                 </div>

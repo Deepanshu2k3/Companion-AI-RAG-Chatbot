@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "AI-Powered RAG Chatbot | Smart Knowledge Retrieval",
-  description: "Experience an intelligent chatbot powered by Retrieval-Augmented Generation (RAG). Get accurate, real-time answers with cited sources.",
+  title: "AI-Companion Bot",
+  description: "Scrape-and-chat with your AI Companion",
   keywords: "AI chatbot, Retrieval-Augmented Generation, RAG, AI search, smart assistant, knowledge retrieval, AI-powered Q&A",
   author: "Deepanshu",
   robots: "index, follow",

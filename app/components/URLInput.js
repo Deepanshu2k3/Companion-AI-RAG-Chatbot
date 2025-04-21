@@ -66,7 +66,7 @@ export default function URLInput() {
               d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" 
             />
           </svg>
-          Tell us about yourself
+          Tell me about yourself
         </h2>
         <p className="text-indigo-100 mt-1 text-sm">
           Share your LinkedIn, Website, GitHub, or other profiles
@@ -188,7 +188,7 @@ export default function URLInput() {
 
         {/* Supported sites examples */}
         <div className="mt-6">
-          <p className="text-xs text-gray-500 mb-2">Supported platforms:</p>
+          <p className="text-xs text-gray-500 mb-2">Current Supported platforms:</p>
           <div className="flex flex-wrap gap-2">
             {['LinkedIn', 'GitHub', 'Twitter', 'Portfolio', 'Medium'].map((site) => (
               <span 
